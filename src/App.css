@@ -45,6 +45,9 @@ p {
   .wine-images {
     width: 100%;
   }
+  .wine-images:hover {
+    cursor: pointer;
+  }
   .wine-div {
     position: absolute;
     top: 50%;
@@ -64,6 +67,7 @@ p {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    text-align: left;
   }
   p {
     color: #fff;
